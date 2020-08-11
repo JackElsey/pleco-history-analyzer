@@ -1,6 +1,6 @@
 # What This Code Does
 
-The code in this GitHub repository helps you identify words you lookup repeatedly in Pleco's reader function. It takes history backup files from Pleco, determines what subset of words were queried at least twice (at times that were at least three days apart), and then saves those words as a list in a text file.
+The code in this GitHub repository helps you identify words you look up repeatedly in Pleco's reader function. It takes history backup files from Pleco, determines what subset of words were queried at least twice (at times that were at least three days apart), and then saves those words as a list in a text file.
 
 The three-day time threshold (which can be changed on line 8 of `1_process_pleco_backups.py`) is to account for articles that take more than one day to read.
 
